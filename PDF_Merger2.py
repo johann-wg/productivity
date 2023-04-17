@@ -1,7 +1,7 @@
 import os
 from PyPDF2 import PdfMerger
 
-folder_path = '/Users/jjong/desktop/test'
+folder_path = '/Users/desktop/test'
 merged_file_path = os.path.expanduser('~') + '/desktop/result.pdf'
 
 pdf_merger = PdfMerger()
