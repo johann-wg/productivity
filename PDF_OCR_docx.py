@@ -10,11 +10,11 @@ custom_config = r'--oem 3 --psm 6 tessedit_char_whitelist=0123456789abcdefghijkl
 pytesseract.pytesseract.tesseract_cmd = r'/Tesseract-OCR/tesseract.exe'
 
 poppler_path = r"C:/poppler-0.68.0/bin"
-pages = convert_from_path('/Users/jjong/desktop/test/테스트-테스트.pdf', poppler_path=poppler_path)
+pages = convert_from_path('/Users/desktop/test/테스트-테스트.pdf', poppler_path=poppler_path)
 
 
 # PDF 파일을 이미지로 변환
-pages = convert_from_path('/Users/jjong/desktop/test/테스트-테스트.pdf')
+pages = convert_from_path('/Users/desktop/test/테스트-테스트.pdf')
 
 # 이미지에서 텍스트 추출
 text = ''
@@ -23,4 +23,4 @@ for page in pages:
 
 doc = Document()
 doc.add_paragraph(text)
-doc.save('/Users/jjong/desktop/example.docx')
+doc.save('/Users/desktop/example.docx')
