@@ -2,8 +2,8 @@
 from pdf2docx import Converter
 
 # convert pdf to docx
-pdf_file = '/Users/jjong/desktop/test/테스트-테스트.pdf'
-docx_file = '/Users/jjong/desktop/test/테스트-테스트.docx'
+pdf_file = '/Users/desktop/test/테스트-테스트.pdf'
+docx_file = '/Users/desktop/test/테스트-테스트.docx'
 
 # create a Converter instance
 cv = Converter(pdf_file)
