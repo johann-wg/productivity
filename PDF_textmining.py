@@ -2,10 +2,10 @@
 import aspose.words as aw
 
 # PDF 파일 로드
-pdf = aw.Document("/Users/jjong/desktop/크라우드웍스.pdf")
+pdf = aw.Document("/Users/desktop/test.pdf")
 
 # TXT 파일에서 텍스트 추출 및 저장
-pdf.save("/Users/jjong/desktop/extracted-text.txt")
+pdf.save("/Users/desktop/extracted-text.txt")
 
 
 # 아래의 코드는 docx파일로 저장하는 코드
@@ -23,6 +23,6 @@ pdf.save("/Users/jjong/desktop/extracted-text.txt")
 #     doc.save(output_path)
 
 # if __name__ == "__main__":
-#     pdf_path = "/Users/jjong/desktop/test/테스트-테스트.pdf"  # PDF 파일 경로
-#     output_path = "/Users/jjong/desktop/test/테스트-테스트.docx"  # 저장할 docx 파일 경로
+#     pdf_path = "/Users/desktop/test/테스트-테스트.pdf"  # PDF 파일 경로
+#     output_path = "/Users/desktop/test/테스트-테스트.docx"  # 저장할 docx 파일 경로
 #     extract_text_from_pdf(pdf_path, output_path)
