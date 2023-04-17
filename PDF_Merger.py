@@ -2,8 +2,8 @@ import os
 from PyPDF2 import PdfMerger
 
 # PDF 파일 경로 설정
-pdf_dir = "/Users/jjong/desktop/test"
-result_dir = "/Users/jjong/desktop"
+pdf_dir = "/Users/desktop/test"
+result_dir = "/Users/desktop"
 result_name = "결과 파일명.pdf"
 
 # PDF 파일 결합용 객체 생성
