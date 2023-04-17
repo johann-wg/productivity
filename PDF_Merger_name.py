@@ -3,7 +3,7 @@ from PyPDF2 import PdfFileWriter, PdfReader, PdfMerger
 import os
 
 # 파일이 있는 폴더 경로
-folder_path = '/users/jjong/desktop/test'
+folder_path = '/users/desktop/test'
 
 # 파일 이름 분리 후 첫 번째 문자 추출
 file_groups = {}
