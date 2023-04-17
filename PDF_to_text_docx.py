@@ -2,7 +2,7 @@
 import aspose.words as aw
 
 # PDF 파일 로드
-pdf = aw.Document('/Users/jjong/desktop/test/example.pdf')
+pdf = aw.Document('/Users/desktop/test/example.pdf')
 
 # PDF 텍스트 추출
 text = pdf.to_string(aw.SaveFormat.TEXT)
@@ -13,4 +13,4 @@ para = doc.first_section.body.first_paragraph
 para.append_child(aw.Run(doc, text))
 
 # DOCX 파일로 저장
-doc.save('/Users/jjong/desktop/테스트-테스트.docx')
+doc.save('/Users/desktop/테스트-테스트.docx')
